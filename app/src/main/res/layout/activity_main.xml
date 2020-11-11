@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D37777"
+    android:backgroundTint="#ECBBBB"
+    android:foregroundTint="#B62929">
+    <!--android:textAlignment="center"
+    android:visibility="visible"-->
+    <!--tools:context=".MainActivity"-->
+
+
+    <!--<Button
+        android:id="@+id/button_parse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="parse" />-->
+
+    <!--<TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FFFFFF"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />-->
+
+    <EditText
+        android:id="@+id/lattitude_text"
+        android:layout_width="89dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/longitude_text"
+        android:ems="10"
+        android:hint="latitude"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/longitude_text"
+        android:layout_width="88dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:hint="longitude"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/ApprovedTime"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#39A9E1"
+
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="627dp"
+
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="45dp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="0dp"
+        android:text="SUBMIT" />
+
+    <!--android:layout_alignParentTop="true"-->
+
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/recycler_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="588dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="80dp" />-->
+
+
+</RelativeLayout>

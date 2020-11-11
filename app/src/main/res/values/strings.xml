@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">W</string>
+    <string-array name="programming_languages">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>f</item>
+        <item>d</item>
+        <item>s</item>
+        <item>f</item>
+        <item>g</item>
+        <item>x</item>
+        <item>y</item>
+    </string-array>
+
+    <string-array name="description">
+    <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+</resources>
